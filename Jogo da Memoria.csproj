@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBB85A4E-915C-450B-B68A-86B4CE6638D4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Jogo_da_Memoria</RootNamespace>
+    <AssemblyName>Jogo da Memoria</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\kokokokoo\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D1456C4F5D820C50489E10179242C0420FCB2765</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Jogo da Memoria_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aprender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aprender.Designer.cs">
+      <DependentUpon>Aprender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Escolha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Escolha.Designer.cs">
+      <DependentUpon>Escolha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Labirinto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labirinto.Designer.cs">
+      <DependentUpon>Labirinto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz.Designer.cs">
+      <DependentUpon>Quiz.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Aprender.resx">
+      <DependentUpon>Aprender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Escolha.resx">
+      <DependentUpon>Escolha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labirinto.resx">
+      <DependentUpon>Labirinto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Quiz.resx">
+      <DependentUpon>Quiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRIANÇAS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRIANÇAS1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DADA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abacate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abacaxi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creditos_editado.jpg" />
+    <None Include="Resources\alternativa2.jpg" />
+    <None Include="Resources\alternativa1.jpg" />
+    <None Include="Resources\novocorreto.png" />
+    <None Include="Resources\alter2.jpg" />
+    <None Include="Resources\quizsexto.png" />
+    <None Include="Resources\quintoquiz1.png" />
+    <None Include="Resources\alter1.jpg" />
+    <None Include="Resources\quintoquiz.png" />
+    <None Include="Resources\quizterceiro.png" />
+    <None Include="Resources\quizquarto.png" />
+    <None Include="Resources\quizsegundo.png" />
+    <None Include="Resources\quizprimeiro.png" />
+    <None Include="Resources\heroii.png" />
+    <None Include="Resources\moldura.png" />
+    <None Include="Resources\testequizimg.png" />
+    <None Include="Resources\quartocorreto.png" />
+    <None Include="Resources\esquerda.png" />
+    <None Include="Resources\direita.png" />
+    <None Include="Resources\quinto5.png" />
+    <None Include="Resources\sexto.png" />
+    <None Include="Resources\setimo.png" />
+    <None Include="Resources\oitavo.png" />
+    <None Include="Resources\nono.png" />
+    <None Include="Resources\decimo.png" />
+    <None Include="Resources\quinto.png" />
+    <None Include="Resources\quarto.png" />
+    <None Include="Resources\terceiro.png" />
+    <None Include="Resources\primeiro.png" />
+    <None Include="Resources\segundo.png" />
+    <None Include="Resources\teste_erros.png" />
+    <None Include="Resources\SIM.jpg" />
+    <None Include="Resources\NAO.jpg" />
+    <None Include="Resources\escolha_quiz.jpg" />
+    <None Include="Resources\escolha_memoria.jpg" />
+    <None Include="Resources\escolha_labirinto.jpg" />
+    <None Include="Resources\creditos_final.png" />
+    <None Include="Resources\creditos_novo.png" />
+    <None Include="Resources\cre_imp.png" />
+    <None Include="Resources\crr.png" />
+    <None Include="Resources\lab_image.jpg" />
+    <None Include="Resources\voltar_novo.png" />
+    <None Include="Resources\Sem título.png" />
+    <None Include="Resources\verso_4.png" />
+    <None Include="Resources\fundo_memoria.png" />
+    <None Include="Resources\chao_fundo.png" />
+    <None Include="Resources\TELA FUNDO CHAO.png" />
+    <None Include="Resources\chao.png" />
+    <None Include="Resources\nuvem.png" />
+    <None Include="Resources\tituloteste.png" />
+    <None Include="Resources\Sem_Titulo-2.png" />
+    <None Include="Resources\benino.png" />
+    <None Include="Resources\benina.png" />
+    <None Include="Resources\sair_sair.png" />
+    <None Include="Resources\jogos_jogos.png" />
+    <None Include="Resources\creditos_creditos.png" />
+    <None Include="Resources\aprender_aprender.png" />
+    <None Include="Resources\q2.png" />
+    <None Include="Resources\q1.jpg" />
+    <None Include="Resources\botao_jogo_novo.png" />
+    <None Include="Resources\button_voltar.png" />
+    <None Include="Resources\button_sair.png" />
+    <None Include="Resources\button_jogos.png" />
+    <None Include="Resources\button_creditos.png" />
+    <None Include="Resources\button_aprender.png" />
+    <None Include="Resources\AQUACHILDREN.png" />
+    <None Include="Resources\sair.jpg" />
+    <None Include="Resources\jogos.jpg" />
+    <None Include="Resources\aprender.jpg" />
+    <None Include="Resources\TELA INICIAL.jpg" />
+    <None Include="Resources\tela.png" />
+    <None Include="Resources\11.jpg" />
+    <None Include="Resources\22.jpg" />
+    <None Include="Resources\33.jpg" />
+    <None Include="Resources\44.jpg" />
+    <None Include="Resources\55.jpg" />
+    <None Include="Resources\66.jpg" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\11.png" />
+    <None Include="Resources\21.png" />
+    <EmbeddedResource Include="finn.cur" />
+    <Content Include="Resources\4.png" />
+    <None Include="Resources\5.png" />
+    <None Include="Resources\6.png" />
+    <Content Include="Resources\agua.jpg" />
+    <None Include="Resources\agua1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

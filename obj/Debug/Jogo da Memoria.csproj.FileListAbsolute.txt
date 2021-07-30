@@ -1,0 +1,49 @@
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\bin\Debug\Jogo da Memoria.exe.config
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\bin\Debug\Jogo da Memoria.exe
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\bin\Debug\Jogo da Memoria.pdb
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo da Memoria.csprojAssemblyReference.cache
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Form1.resources
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Properties.Resources.resources
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo da Memoria.csproj.GenerateResource.cache
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo da Memoria.csproj.CoreCompileInputs.cache
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo da Memoria.exe
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo da Memoria.pdb
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Menu.resources
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Aprender.resources
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Creditos.resources
+C:\Users\kokokokoo\source\repos\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Escolha.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\bin\Debug\Jogo da Memoria.exe.config
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\bin\Debug\Jogo da Memoria.exe
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\bin\Debug\Jogo da Memoria.pdb
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo da Memoria.csprojAssemblyReference.cache
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Aprender.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Creditos.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Escolha.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Form1.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Menu.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Properties.Resources.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo da Memoria.csproj.GenerateResource.cache
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo da Memoria.csproj.CoreCompileInputs.cache
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo da Memoria.exe
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo da Memoria.pdb
+C:\Users\kokokokoo\Desktop\Jogo da Memoria\obj\Debug\Jogo_da_Memoria.Quiz.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\bin\Debug\Jogo da Memoria.exe.config
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\bin\Debug\Jogo da Memoria.exe
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\bin\Debug\Jogo da Memoria.pdb
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo da Memoria.csprojAssemblyReference.cache
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo_da_Memoria.Aprender.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo_da_Memoria.Creditos.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo_da_Memoria.Escolha.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo_da_Memoria.Form1.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo_da_Memoria.Menu.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo_da_Memoria.Properties.Resources.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo_da_Memoria.Quiz.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo da Memoria.csproj.GenerateResource.cache
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo da Memoria.csproj.CoreCompileInputs.cache
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo da Memoria.exe
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo da Memoria.pdb
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo_da_Memoria.Labirinto.resources
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\bin\Debug\Jogo da Memoria.exe.manifest
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\bin\Debug\Jogo da Memoria.application
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo da Memoria.exe.manifest
+C:\Users\kokokokoo\Desktop\Jogo da Memoria - Copia\obj\Debug\Jogo da Memoria.application
